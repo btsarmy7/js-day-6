@@ -1,5 +1,5 @@
 {
-  "main": "./dist/app.js",
+  "main": "./build/app.js",
   "scripts": {
     "build:watch": "webpack --colors --progress --watch",
     "build": "webpack --colors --progress",
@@ -12,7 +12,8 @@
     "babel-polyfill": "^6.23.0",
     "babel-preset-env": "^1.5.2",
     "babel-preset-stage-0": "^6.24.1",
-    "standard": "^10.0.2"
+    "standard": "^10.0.2",
+    "webpack": "^3.8.1"
   },
   "standard": {
     "parser": "babel-eslint"
